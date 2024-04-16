@@ -144,6 +144,26 @@ footer p a {
     width: auto;
 }
 
+ gradient-style {
+        clear: left; 
+        border-radius: 10px; 
+        border-top: 1px solid rgb(142, 207, 71); 
+        border-bottom: 1px solid rgb(142, 207, 71); 
+        background-color: #f2f2f2; 
+        padding: 1% 2%; 
+        background: linear-gradient (to right, rgb(231, 159, 159), rgb(241, 203, 203)); 
+    }
+
+.action {
+        font-size: 1.35em; 
+        color: rgb(225, 36, 36);
+        font-weight: bold; 
+        text-decoration: none; 
+        text-shadow: 5px 5px 8px rgb(142, 207, 71); 
+    }
+    
+
+
 @media screen and (min-width: 630px), print {
     /* Table viewport: show tablet-desktop class, hide mobile class */
     .tablet-desktop {
@@ -189,23 +209,6 @@ footer p a {
         height:450px;
     }
     
-    .action {
-        font-size: 1.35em; 
-        color: rgb(225, 36, 36);
-        font-weight: bold; 
-        text-decoration: none; 
-        text-shadow: 5px 5px 8px rgb(142, 207, 71); 
-    }
-    
- gradient-style {
-        clear: left; 
-        border-radius: 10px; 
-        border-top: 1px solid rgb(142, 207, 71); 
-        border-bottom: 1px solid rgb(142, 207, 71); 
-        background-color: #f2f2f2; 
-        padding: 1% 2%; 
-        background: linear-gradient (to right, rgb(231, 159, 159), rgb(241, 203, 203)); 
-    }
 
     @media screen and (min-width: 769px), print {
         /* Desktop Viewport: Style rule for header */ 
