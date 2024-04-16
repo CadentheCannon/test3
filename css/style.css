@@ -314,3 +314,48 @@ footer p a {
 .tablet-desktop tbody tr:nth-child(odd) {
     background-color: rgb(176, 222, 116); /* Set background color for odd rows */
 }
+
+
+/* For Desktop viewport: grid */
+.grid {
+    display: grid; /* i. */
+    grid-template-columns: auto auto; /* ii. */
+    grid-gap: 10px; /* ii. */
+}
+
+/* For Desktop viewport: frame */
+.frame {
+    opacity: 0.9; /* i. */
+}
+
+/* For Desktop viewport: frame:hover */
+.frame:hover {
+    opacity: 1; /* i. */
+    box-shadow: 8px 8px 2px #808080; /* i. */
+    color: #808080; /* i. */
+    width: 200px; /* i. */
+    height: 200px; /* i. */
+    border-radius: 50%; /* i. */
+}
+
+/* For mobile viewport */
+@media screen and (max-width: 768px) {
+    .frame {
+        position: relative; /* d. i. */
+        max-width: 450px; /* d. i. */
+        margin: 2% auto; /* d. i. */
+    }
+    
+    .pic-text {
+        position: absolute; /* d. ii. */
+        bottom: 0; /* d. ii. */
+        background-color: rgba(0, 0, 0, 0.5); /* d. ii. */
+        color: white; /* d. ii. */
+        width: auto; /* d. ii. */
+        padding: 5px; /* d. ii. */
+        text-align: center; /* d. ii. */
+        font-family: verdana, Arial, sans-serif; /* d. ii. */
+        font-size: 1.5em; /* d. ii. */
+        font-weight: bold; /* d. ii. */
+    }
+}
