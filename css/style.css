@@ -6,7 +6,7 @@ body, header, nav, footer, h1, div, img, ul {
 }
 
 body {
-    background-color: rgb(232, 113, 100); /* Change body color */
+    background-color: rgb(232, 113, 100); 
 }
 
 header {
@@ -16,7 +16,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    float: left; /* Float header to the left for desktop view */
+    float: left; 
 }
 
 header img {
@@ -197,14 +197,14 @@ footer p a {
         text-shadow: 5px 5px 8px rgb(142, 207, 71); 
     }
     
-    #gradient-style {
+ gradient-style {
         clear: left; 
         border-radius: 10px; 
         border-top: 1px solid rgb(142, 207, 71); 
         border-bottom: 1px solid rgb(142, 207, 71); 
         background-color: #f2f2f2; 
         padding: 1% 2%; 
-        background: linear-gradient(to right, rgb(231, 159, 159), rgb(241, 203, 203)); 
+        background: linear-gradient (to right, rgb(231, 159, 159), rgb(241, 203, 203)); 
     }
 
     @media screen and (min-width: 769px), print {
