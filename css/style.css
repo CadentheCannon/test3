@@ -144,15 +144,15 @@ footer p a {
     width: auto;
 }
 
- #gradient-style {
-        clear: left; 
-        border-radius: 10px; 
-        border-top: 1px solid rgb(142, 207, 71); 
-        border-bottom: 1px solid rgb(142, 207, 71); 
-        background-color: #f2f2f2; 
-        padding: 1% 2%; 
-        background: linear-gradient (to right, rgb(231, 159, 159), rgb(241, 203, 203)); 
-    }
+#gradient-style {
+    clear: left;
+    border-radius: 5px;
+    border-top: 1px solid rgb(142, 207, 71);
+    border-bottom: 1px solid rgb(142, 207, 71);
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+    background: linear-gradient(to right, rgb(231, 159, 159), rgb(241, 203, 203));
+}
 
 .action {
         font-size: 1.35em; 
