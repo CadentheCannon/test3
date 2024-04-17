@@ -144,6 +144,19 @@ footer p a {
     width: auto;
 }
 
+.pic-text{
+    position: absolute;
+    bottom: 0;
+    background-color: black 50%;
+    color: white;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
 
 
 @media screen and (min-width: 630px), print {
@@ -362,15 +375,3 @@ footer p a {
     }
 }
 
-.pic-text{
-    position: absolute;
-    bottom: 0;
-    background-color: black 50%;
-    color: white;
-    width: auto;
-    padding: 5px;
-    text-align: center;
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
-  }
