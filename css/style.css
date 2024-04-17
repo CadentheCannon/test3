@@ -361,3 +361,16 @@ footer p a {
         font-weight: bold; /* d. ii. */
     }
 }
+
+.pic-text{
+    position: absolute;
+    bottom: 0;
+    background-color: black 50%;
+    color: white;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
