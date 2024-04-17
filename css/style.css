@@ -203,7 +203,9 @@ footer p a {
         }
         
         nav ul {
-            
+            float: right;
+            margin-top: 3em;
+
         }
         
         nav li {
